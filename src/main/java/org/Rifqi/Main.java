@@ -12,7 +12,6 @@ public class Main {
         System.out.print(Arrays.toString(RemoveOdd.printEvenOnly(new int[]{1, 2, 3, 4, 5})));
         Scanner scanner = new Scanner(System.in);
         CurrencyConverter converter = new CurrencyConverter();
-        converter.convertCurrency(scanner);
-        scanner.close();
+        System.out.println(FindCalculation.findPair(new int[]{10, 22, 35, 49, 51}, 32));
     }
 }
