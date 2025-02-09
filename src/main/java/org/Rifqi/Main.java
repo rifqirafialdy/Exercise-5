@@ -13,5 +13,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         CurrencyConverter converter = new CurrencyConverter();
         System.out.println(FindCalculation.findPair(new int[]{10, 22, 35, 49, 51}, 32));
+        FindWord game = new FindWord();
+        game.gameStart();
     }
 }

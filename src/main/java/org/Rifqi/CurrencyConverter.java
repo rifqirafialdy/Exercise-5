@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class CurrencyConverter {
     private final HashMap<String, Double> currencyRate = new HashMap<String, Double>();
-    private Scanner scanner;
 
     public CurrencyConverter() {
         currencyRate.put("USD_EUR", 0.92);
